@@ -11,7 +11,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the project...'
-                // Додайте команди для збірки, наприклад:
                 // sh './build.sh' або sh 'mvn package'
             }
         }
@@ -19,7 +18,6 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                // Додайте команди для тестування, наприклад:
                 // sh 'npm test' або sh 'pytest'
             }
         }
@@ -27,7 +25,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying application...'
-                // Додайте команди для деплою
             }
         }
     }
